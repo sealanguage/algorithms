@@ -1,22 +1,24 @@
 function findLongestWordLength(str) {
-  var longestWordLength = 0;
-  let wordLength = 0;
+  var longestWord = 0;
+  let countLength = 0;
   var array = str.split(" ");
-  console.log(array);
+  // console.log(array);
+  // console.log("str" + str);
 
   for (let words = 0; words < array.length; words++) {
-    for (let letter = 0; letter < str.length; letter++) {
-      wordLength += 1;
-      if (wordLength > str.length) {
-        str.length = longestWord;
-      }
+    console.log("array words " + array[words].length);
+
+    if (array[words].length > countLength) {
+      countLength = array[words].length;
     }
   }
-
-  return str.length;
+  console.log("countLength " + countLength);
+  return longestWord;
 }
 
-findLongestWordLength("The quick brown fox jumped over the lazy dog");
+findLongestWordLength(
+  "What if we try a super-long word such as otorhinolaryngology"
+);
 
 // make a counter to keep track of the largest word length
 //  split the string into an array of words
