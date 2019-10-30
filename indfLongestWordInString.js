@@ -13,7 +13,9 @@ function findLongestWordLength(str) {
     }
   }
   console.log("countLength " + countLength);
-  return longestWord;
+
+  // return str.length;
+  return countLength;
 }
 
 findLongestWordLength(
