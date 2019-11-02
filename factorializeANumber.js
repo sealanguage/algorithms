@@ -1,23 +1,26 @@
 function factorialize(num) {
-  num = 5;
-   let counter = 0;
+  //   let counter = 1;
+  let result = 1;
 
-  for (i = 1; i <= num; i++) {
+  for (let i = 1; i <= num; i++) {
     // i is 1, increment up to the number
     // with each loop take i * the next increment
-    var j = i * counter;
-    var answer = j;
+    //  console.log("counter " + counter);
+    console.log("my i = ", i);
+    result = i * result;
+    //  counter++;
+    //  console.log("counter++ is " + counter);
+    console.log("result, i is " + i, result);
+    console.log("num is " + num);
 
-    console.log("done");
-    console.log("my i is: ", i);
-    console.log("my j is: ", j);
-    console.log("my num is: ", num);
-    console.log("my ansewer is: ", answer);
-    return j;
+    //  var j = i * i++;
+    //  var answer = j;
+    //  console.log("j is ", +j);
+    var checking = 1 * 2 * 3 * 4 * 5;
+    console.log("checking is  ", checking);
   }
 
-  console.log("out of function");
-  return num;
+  return result;
 }
 
 factorialize(5);
