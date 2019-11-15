@@ -8,14 +8,15 @@ function largestOfFour(arr) {
   //   console.log("highestValues are " + "[" + highestValues + "]");
 
   for (let i = 0; i < arr.length; i++) {
-    let value = 0;
+    var x = arr[i][0];
+    let value = x;
     //  first loop runs once for each sub array in the array
     //  console.log("arr.length is ", arr.length);
     for (let j = 0; j < arr[i].length; j++) {
       //  second loop runs 4 times over the 4 elements in each sub array
       // console.log("arr[i].length is ", arr[i][j]);
 
-      if (arr[i][j] > value || 0 > arr[i][j]) {
+      if (arr[i][j] > value) {
         value = arr[i][j];
         console.log("value is " + value);
       }
