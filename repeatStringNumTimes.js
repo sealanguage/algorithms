@@ -1,9 +1,9 @@
 function repeatStringNumTimes(str, num) {
   // repeat after me
   console.log("str, " + "num ", str, num);
-  let repeatedStr = "x";
+  let repeatedStr = "";
   if (num > 0) {
-    for (i = 0; i < num; i++) {
+    for (var i = 0; i < num; i++) {
       repeatedStr += str;
       console.log(repeatedStr);
     }
@@ -16,3 +16,4 @@ repeatStringNumTimes("abc", 3);
 repeatStringNumTimes("*", 3);
 // repeatStringNumTimes("abc", 0);
 repeatStringNumTimes("abc", -2);
+repeatStringNumTimes("*", 8);
