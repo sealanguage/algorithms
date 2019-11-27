@@ -1,10 +1,8 @@
-function sumAll(...args) {
-   let sum = 0;
-   for (let arg of args) sum += arg;
-   return sum;
-
-}
-console.log(sumAll (1));
-console.log(sumAll (1, 2));
-console.log(sumAll (1,2,3));
-console.log(sumAll (1,2,3,4,5));
+let initialValue = 0;
+let sum = (...args) => {
+  return args.reduce((a, b) => a + b, 0);
+};
+console.log(sum(1));
+console.log(sum(1, 2));
+console.log(sum(1, 2, 3));
+console.log(sum(1, 2, 3, 4, 5));
