@@ -6,6 +6,7 @@ function quickCheck(arr, elem) {
   const array = arr.indexOf(elem);
 
   if (arr.indexOf(elem) >= 0) {
+    console.log("arr is ", arr);
     return true;
   } else {
     return false;
