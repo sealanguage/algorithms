@@ -63,21 +63,3 @@ console.log(
 // );
 // console.log(filteredArray([[10, 8, 3], [14, 6, 23], [3, 18, 6]], 18));
 
-// for (let i = 0; i < arr.length; i++) {
-//   // console.log("arr is ", arr);
-//   console.log("arr[i] is ", arr[i]);
-//   // for (let j = 0; j < arr[i].length; j++) {
-//   // console.log("arr[i][j] is ", arr[i][j]);
-//   if (arr[i] === elem) {
-//     // console.log("elem, arr[i][j] is ", elem, arr[i][j]);
-//     // console.log("arr[i] === elem");
-//     // push arr[i] to newArr
-//     // newArr.push(arr[i][j]);
-//   } else {
-//     newArr.push(arr);
-//     console.log("newArr is: ", newArr);
-//   }
-//   // }
-//   // newArr.push(arr);
-//   // console.log("newArr[i] is: ", newArr[i]);
-// }
