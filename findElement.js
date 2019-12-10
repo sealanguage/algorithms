@@ -1,11 +1,16 @@
 function findElement(arr, func) {
-  let num = 0;
+  let num = 3;
+  // newBoolean
+
+  let result = num % 2;
+  console.log("result is ", result);
+
   let arr1 = arr;
   // num is passed to the function. We will need to set it to the elements we want to check with the function.
 
   console.log("arr is", arr);
   for (var i = 0; i < arr.length; i++) {
-    console.log("arr1-i is ", arr1[i]); //  this gets the data of the array
+    // console.log("arr1-i is ", arr1[i]); //  this gets the data of the array
     num = arr1[i] % 2 === 0;
 
     // if (num === true) {
@@ -15,9 +20,9 @@ function findElement(arr, func) {
     // }
   }
 
-    console.log("num is", num);
-  }
-  return num % 2 === 0;
+  // console.log("num is", num);
+
+  // return num % 2 === 0;
 
   // return num;
 }
