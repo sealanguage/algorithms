@@ -1,6 +1,18 @@
 function findElement(arr, func) {
   let num = 3;
-  // newBoolean
+  // newBooleanclass Vegetable {
+    constructor(name) {
+      this.name = name;
+
+      // Put a constructor with a parameter called name, and set it to this.name.
+  }
+}
+
+/* Alter code above this line */
+
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // => should be 'carrot'
+
 
   let result = num % 2;
   console.log("result is ", result);
